@@ -1,0 +1,5 @@
+Desorption Test
+After absorp 4 test
+Room T - 450C 1.5hour(5C/min) - 450C 1hour - 20C 1.5 hour 
+Atmospheric pressure
+Inlet N2 (100 sccm)
