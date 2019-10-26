@@ -2,39 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="115e09cd-860c-4701-886d-3183c13a3362" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/AmmoniaProjectDataAnalyzer.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/other.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestAbsorp1_VCR_10-16-2019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestAbsorp1_VCR_10-16-2019.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestAbsorp2_VCR_10-17-2019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestAbsorp2_VCR_10-17-2019.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestAbsorp3_VCR_10-18-2019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestAbsorp3_VCR_10-18-2019.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestAbsorp4_VCR_10-19-2019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestAbsorp4_VCR_10-19-2019.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestAbsorp5_VCR_10-21-2019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestAbsorp5_VCR_10-21-2019.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestAbsorp6_VCR_10-22-2019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestAbsorp6_VCR_10-22-2019.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestDesorp1_VCR_10-16-2019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestDesorp1_VCR_10-16-2019.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestDesorp2_VCR_10-17-2019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestDesorp2_VCR_10-17-2019.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestDesorp3_VCR_10-18-2019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestDesorp3_VCR_10-18-2019.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestDesorp4_VCR_10-19-2019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestDesorp4_VCR_10-19-2019.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestDesorp5_VCR_10-21-2019.csv" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Data/ClinoTestDesorp5_VCR_10-21-2019.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Pics/Absorp2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Pics/Absorp4.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Pics/Desorp2.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/Pics/Thumbs.db" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/processDataMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClinoAbsorption/processDataMain.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -45,13 +13,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ClinoAbsorption/processDataMain.py">
+        <entry file="file://$PROJECT_DIR$/NewAmmoSorb/processDataMain.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
-              <folding>
-                <element signature="e#285#295#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="441">
+              <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
             </state>
           </provider>
         </entry>
@@ -97,7 +62,7 @@
             <path>
               <item name="AmmoniaProjectDataAnalyzer" type="b2602c69:ProjectViewProjectNode" />
               <item name="AmmoniaProjectDataAnalyzer" type="462c0819:PsiDirectoryNode" />
-              <item name="ClinoAbsorption" type="462c0819:PsiDirectoryNode" />
+              <item name="NewAmmoSorb" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -119,7 +84,7 @@
     <property name="node.js.selected.package.tslint" value="(autodetect)" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.appearance" />
+    <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -180,6 +145,19 @@
       <option name="ADDITIONAL_ARGS" value="" />
       <method v="2" />
     </configuration>
+    <configuration default="true" type="Python.FlaskServer">
+      <module name="AmmoniaProjectDataAnalyzer" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="" />
+      <option name="IS_MODULE_SDK" value="false" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="launchJavascriptDebuger" value="false" />
+      <method v="2" />
+    </configuration>
     <configuration default="true" type="PythonConfigurationType" factoryName="Python">
       <module name="AmmoniaProjectDataAnalyzer" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -200,19 +178,6 @@
       <option name="MODULE_MODE" value="false" />
       <option name="REDIRECT_INPUT" value="false" />
       <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration default="true" type="Python.FlaskServer">
-      <module name="AmmoniaProjectDataAnalyzer" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="" />
-      <option name="IS_MODULE_SDK" value="false" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="launchJavascriptDebuger" value="false" />
       <method v="2" />
     </configuration>
     <configuration default="true" type="Tox" factoryName="Tox">
@@ -292,9 +257,9 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="63" y="-7" width="1311" height="925" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18336888" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18324198" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -308,7 +273,7 @@
       <window_info anchor="bottom" id="Version Control" order="8" />
       <window_info anchor="bottom" id="Database Changes" order="9" />
       <window_info anchor="bottom" id="Event Log" order="10" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.29252437" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="11" visible="true" weight="0.2914573" />
       <window_info anchor="bottom" id="Python Console" order="12" weight="0.32936078" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -322,24 +287,24 @@
     <option name="version" value="1" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$USER_HOME$/OneDrive/Documents/zvbz/ML4T/optimize_something/optimization.py">
+    <entry file="file://$PROJECT_DIR$/../../zvbz/ML4T/optimize_something/optimization.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <caret line="89" selection-start-line="89" selection-end-line="89" selection-end-column="27" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/OneDrive/Documents/zvbz/ML4T/optimize_something/grade_optimization.py">
+    <entry file="file://$PROJECT_DIR$/../../zvbz/ML4T/optimize_something/grade_optimization.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/OneDrive/Documents/zvbz/ML4T/assess_learners/LinRegLearner.py">
+    <entry file="file://$PROJECT_DIR$/../../zvbz/ML4T/assess_learners/LinRegLearner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7" />
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/OneDrive/Documents/zvbz/ML4T/assess_learners/testlearner.py">
+    <entry file="file://$PROJECT_DIR$/../../zvbz/ML4T/assess_learners/testlearner.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-7">
           <folding>
@@ -348,17 +313,24 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$USER_HOME$/OneDrive/Documents/zvbz/ML4T/assess_learners/grade_learners.py">
+    <entry file="file://$PROJECT_DIR$/../../zvbz/ML4T/assess_learners/grade_learners.py">
       <provider selected="true" editor-type-id="text-editor" />
     </entry>
     <entry file="file://$PROJECT_DIR$/processDataMain.py" />
     <entry file="file://$PROJECT_DIR$/ClinoAbsorption/processDataMain.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="96" column="17" selection-start-line="96" selection-start-column="17" selection-end-line="96" selection-end-column="17" />
+        <state relative-caret-position="38">
+          <caret line="85" column="24" selection-start-line="85" selection-start-column="24" selection-end-line="85" selection-end-column="24" />
           <folding>
             <element signature="e#285#295#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/NewAmmoSorb/processDataMain.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="441">
+          <caret line="30" column="18" selection-start-line="30" selection-start-column="18" selection-end-line="30" selection-end-column="18" />
         </state>
       </provider>
     </entry>
