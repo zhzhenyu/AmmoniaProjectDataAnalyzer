@@ -1,6 +1,0 @@
-Absorption Test
-This test is after desorp 2 (550C) on 10/17/19
-Room T
-Atmospheric pressure
-Inlet N2 (495 sccm) and NH3 (5 sccm)
-cNH3, ~10,800 ppm

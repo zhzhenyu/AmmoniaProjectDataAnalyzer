@@ -1,8 +1,0 @@
-Absorption Test
-This test is after desorp 3 (550C) on 10/18/19
-The hypothesis is that the absorbent works better (higher capacity) with the presence of moisture
-The absorbent after desorption was left at ambient conditions overnight
-Room T
-Atmospheric pressure
-Inlet N2 (495 sccm) and NH3 (5 sccm)
-cNH3, ~10,800 ppm

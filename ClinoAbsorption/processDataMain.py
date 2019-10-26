@@ -55,7 +55,7 @@ def builddf(filename, path):
 
 def normdf(df):
     """summary: normalize nh3PPM and temperature"""
-    df['temperature'] = df['temperature'] / df['temperature'].max()
+    df['temperaturenorm'] = df['temperature'] / df['temperature'].max()
     df['nh3PPM'] = df['nh3PPM'] / df['nh3PPM'].max()
     df['nh3flow'] = df['nh3flow'] / df['nh3flow'].max()
     return df
@@ -79,21 +79,22 @@ def plot(df, tstart, colList, title, xlabel, ylabel, legendList, fontname, fonts
 def plotdataframe(tstart, plotdf, plotdfNormAbsorb, plotdfNormDesorb, plotdfMA):
     if plotdf:
         colList = ['nh3PPM']
-        title, xlabel, ylabel, fontname, fontsize = filename.split('_')[0], 'Time (s)', 'NH$_3$ PPM', 'Arial', 13
+        title, xlabel, ylabel, fontname, fontsize = filename.split('_')[0], 'Time (s)', 'NH$_3$ PPM', 'Arial', 14
         legendList = ['NH$_3$ PPM']
         plot(df, tstart, colList, title, xlabel, ylabel, legendList, fontname, fontsize)
 
     if plotdfNormAbsorb:
-        colList = ['nh3PPM', 'temperature', 'nh3flow']
+        colList = ['nh3PPM', 'temperaturenorm', 'nh3flow']
         title, xlabel, ylabel, fontname, fontsize = filename.split('_')[0], 'Time (s)', 'Normalized NH$_3$ PPM/Temperature/Flowrate', 'Arial', 14
         legendList = ['NH$_3$ PPM', 'Temperature', 'NH$_3$ Flowrate']
         plot(df_norm, tstart, colList, title, xlabel, ylabel, legendList, fontname, fontsize)
 
     if plotdfNormDesorb:
-        colList = ['nh3PPM', 'temperature']
-        title, xlabel, ylabel, fontname, fontsize = filename.split('_')[0], 'Time (s)', 'Normalized NH$_3$ PPM/Temperature/Flowrate', 'Arial', 14
-        legendList = ['NH$_3$ PPM', 'Temperature']
-        plot(df_norm, tstart, colList, title, xlabel, ylabel, legendList, fontname, fontsize)
+        plt.figure()
+        x = df['temperature']
+        y = df['nh3PPM']
+        plt.plot(x, y)
+        plt.show()
 
     if plotdfMA:
         colList = ['nh3PPM']
@@ -122,10 +123,10 @@ def totalAbsorb(df):
 
 if __name__ == "__main__":
     # Read in csv file
-    filename = "ClinoTestDesorp5_VCR_10-21-2019.csv"
-    path = "Z:\AmmoniaSynthesis\ReactionAbsorption\PythonScript\Data"
+    filename = input("Enter the filename: ")
+    path = input("Enter a path: ")
     window = 20
-    m_absorbent = 0.2035
+    m_absorbent = float(input("Enter weight of absorbent: "))
 
     """build dataframe"""
     df = builddf(filename, path)
@@ -134,7 +135,7 @@ if __name__ == "__main__":
 
     """Plot dataframe"""
     t_start = df.index.tolist()[0]
-    plotdf, plotdfNormAbsorb, plotdfNormDesorb, plotdfMA = 1, 0, 1, 0
+    plotdf, plotdfNormAbsorb, plotdfNormDesorb, plotdfMA = 0, 0, 1, 0
     if 'Absorp' in filename.split('_')[0]:
         t_start = df[df['nh3flow'] > 4].index.tolist()[0] - 12.0 # when the NH3 flowrate is above 4 sccm
         plotdf, plotdfNormAbsorb, plotdfNormDesorb, plotdfMA = 0, 1, 0, 0

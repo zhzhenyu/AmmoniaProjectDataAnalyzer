@@ -1,4 +1,0 @@
-Desorption Test
-Room T - 550C 2hour(5C/min) - 550C 1hour - 20C 2 hour 
-Atmospheric pressure
-Inlet N2 (100 sccm)
