@@ -103,22 +103,23 @@ def plotdataframe(tstart, plotdf, plotdfNormAbsorb, plotdfNormDesorb, plotdfMA):
         plot(df_ma, tstart, colList, title, xlabel, ylabel, legendList, fontname, fontsize)
 
 def breakthroughCapacity(df):
-    t_start = df[df['nh3flow'] > 4].index.tolist()[0] # when the NH3 flowrate is above 4 sccm
-    t_end = df.loc[ (df['nh3PPM'] > 20) & (df['nh3flow'] > 4) ].index.tolist()[0] # when the NH3 PPM is above 20
+    t_start = df[df['nh3flow'] > 2].index.tolist()[0] # when the NH3 flowrate is above 2 sccm
+    t_end = df.loc[ (df['nh3PPM'] > 20) & (df['nh3flow'] > 2) ].index.tolist()[0] # when the NH3 PPM is above 20
+    print(t_start, t_end)
     t_blank = 6
     # print(df.loc[t_start:t_end, :])
-    nh3_molarrate = 500*0.000000745*10800*0.000001 # [mol/s]
+    nh3_molarrate = 500*0.000000745*5742*0.000001 # [mol/s]
     nh3_g = nh3_molarrate*(t_end - t_start - t_blank)*17 # [g]
     return  nh3_g
 
-def totalAbsorb(df):
-    t_start = df[df['nh3flow'] > 4].index.tolist()[0] # when the NH3 flowrate is above 4 sccm
-    t_end = df[df['nh3PPM'] > 20].index.tolist()[0] # when the NH3 PPM is above 20
-    t_blank = 6
-    nh3_PPM = df.loc[t_start:t_end, 'nh3PPM'].tolist()
-    nh3_molarrate = sum([500*0.000000745*(10800-i)*0.000001 for i in nh3_PPM]) # [mol/s]
-    nh3_g = nh3_molarrate*(t_end - t_start - t_blank)*17 # [g]
-    return  nh3_g
+# def totalAbsorb(df):
+#     t_start = df[df['nh3flow'] > 2].index.tolist()[0] # when the NH3 flowrate is above 2 sccm
+#     t_end = df[df['nh3PPM'] > 20].index.tolist()[0] # when the NH3 PPM is above 20
+#     t_blank = 6
+#     nh3_PPM = df.loc[t_start:t_end, 'nh3PPM'].tolist()
+#     nh3_molarrate = sum([500*0.000000745*(5742-i)*0.000001 for i in nh3_PPM]) # [mol/s]
+#     nh3_g = nh3_molarrate*(t_end - t_start - t_blank)*17 # [g]
+#     return  nh3_g
 
 
 if __name__ == "__main__":
@@ -137,7 +138,7 @@ if __name__ == "__main__":
     t_start = df.index.tolist()[0]
     plotdf, plotdfNormAbsorb, plotdfNormDesorb, plotdfMA = 0, 0, 1, 0
     if 'Absorp' in filename.split('_')[0]:
-        t_start = df[df['nh3flow'] > 4].index.tolist()[0] - 12.0 # when the NH3 flowrate is above 4 sccm
+        t_start = df[df['nh3flow'] > 2].index.tolist()[0] - 12.0 # when the NH3 flowrate is above 2 sccm
         plotdf, plotdfNormAbsorb, plotdfNormDesorb, plotdfMA = 0, 1, 0, 0
     plotdataframe(t_start, plotdf, plotdfNormAbsorb, plotdfNormDesorb, plotdfMA)
 
@@ -148,7 +149,7 @@ if __name__ == "__main__":
     """
     if 'Absorp' in filename.split('_')[0]:
         m_nh3 = breakthroughCapacity(df.copy())
-        weightper = m_nh3/(m_nh3 + m_absorbent) * 100.00 # %
+        weightper = m_nh3/(m_absorbent + m_nh3) * 100.00 # %
         print('Breakthrough capacity is {}%'.format(round(weightper, 2)))
 
     elif 'Desorp' in filename.split('_')[0]:

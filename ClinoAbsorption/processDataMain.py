@@ -148,7 +148,7 @@ if __name__ == "__main__":
     """
     if 'Absorp' in filename.split('_')[0]:
         m_nh3 = breakthroughCapacity(df.copy())
-        weightper = m_nh3/m_absorbent * 100.00 # %
+        weightper = m_nh3/(m_nh3 + m_absorbent)* 100.00 # %
         print('Breakthrough capacity is {}%'.format(round(weightper, 2)))
 
     elif 'Desorp' in filename.split('_')[0]:
