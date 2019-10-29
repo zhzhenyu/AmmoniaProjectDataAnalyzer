@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="115e09cd-860c-4701-886d-3183c13a3362" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/AmmoniaProjectDataAnalyzer.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/AmmoniaProjectDataAnalyzer.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ClinoAbsorption/processDataMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/ClinoAbsorption/processDataMain.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/NewAmmoSorb/processDataMain.py" beforeDir="false" afterPath="$PROJECT_DIR$/NewAmmoSorb/processDataMain.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
